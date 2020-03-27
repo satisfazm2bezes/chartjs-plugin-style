@@ -109,6 +109,7 @@ To configure this plugin, you can simply add the following properties to your da
 | [`shadowOffsetY`](#shadow-effect) | `number` | Yes | Yes | `0`
 | [`shadowBlur`](#shadow-effect) | `number` | Yes | Yes | `0`
 | [`shadowColor`](#shadow-effect) | `Color` | Yes | Yes | `'rgba(0, 0, 0, 0)'`
+| [`legendShadow`](#shadow-effect) | `boolean` | No | No | `true`
 
 ### Shadow effect
 
@@ -120,6 +121,7 @@ The shadow effect can be controlled with the following properties.
 | `shadowOffsetY` | Indicates the vertical distance the shadow should extend from the line. See [MDN](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetY).
 | `shadowBlur` | Indicates the size of the blurring effect for the line; this value doesn't correspond to a number of pixels. See [MDN](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowBlur).
 | `shadowColor` | A standard CSS color value indicating the color of the shadow effect for the line. See [Colors](http://www.chartjs.org/docs/latest/general/colors.html#colors).
+| `legendShadow` | Indicates if the shadow is applied to legend box or not.
 | `hoverShadowOffsetX` | The horizontal distance the shadow should extend from the element when hovered.
 | `hoverShadowOffsetY` | The vertical distance the shadow should extend from the element when hovered.
 | `hoverShadowBlur` | The size of the blurring effect when hovered.
